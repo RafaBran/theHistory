@@ -1,0 +1,71 @@
+.containner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 9960px;
+    background-color: black;
+}
+/* há 986 anos */
+
+span {
+    color: red;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline div:first-child {
+    margin-left: 50px;
+}
+
+.timeline div:first-child {
+    margin-left: 50px;
+}
+
+.timeline div:nth-of-type(624) {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+.year {
+    background-color: rgb(111, 111, 111);
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.year:hover {
+    border: 1px solid #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.classificacaoIM p:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+
+.classificacaoIM p:first-child {
+    color: #fff;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+    width: 6240px;
+    border: 1px solid rgb(113, 113, 113);
+    text-align: center;
+}
+
+.classificacaoIM p:last-child {
+    color: #fff;
+    position: absolute;
+    top: 500px;
+    left: 6311px;
+    width: 3630px;
+    border: 1px solid rgb(113, 113, 113);
+    text-align: center;
+}
