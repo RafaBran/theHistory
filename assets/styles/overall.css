@@ -27,10 +27,9 @@
 .periodoHistorico {
     font-family: 'arial';
     font-size: 20px;
+    transition: 2s;
 }
 
 .periodoHistorico:hover {
-    color: #fff;
-    font-size: 40px;
-    transition-duration: 1.5s;
+    Transform: scale(1.4)
 }
